@@ -206,4 +206,7 @@ html, body {
   .logoCopyright {
     margin: auto;
   }
+  .logo span {
+    display: none;
+  }
 }
