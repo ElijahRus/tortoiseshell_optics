@@ -125,13 +125,12 @@ html, body {
   padding-left: 1rem;
 }
 
-@media only screen and (min-width: 1200px) {
-  /*--was 700px*/
+@media only screen and (min-width: 700px) {
   #mobile_nav {
     display: none;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 700px) {
   #desktop_nav {
     display: none;
   }
@@ -152,8 +151,7 @@ html, body {
     background-position: 28%;
   }
 }
-@media only screen and (max-width: 1000px) {
-  /*was 530px*/
+@media only screen and (max-width: 530px) {
   .main-banner {
     padding: 1rem;
     font-size: 1rem;
